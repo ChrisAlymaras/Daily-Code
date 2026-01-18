@@ -5,14 +5,25 @@
 
 
 var canCompleteCircuit = function(gas, cost) {
-    //we can use the sliding window method
-    let right = 0;
-    let tank = gas[right];
-    while(){
-        if(tank-cost[i] > 0){
-            tank -= cost[i];
-            right++;
-            tank += gas[right];
+    let total = 0;
+    let tank = 0;
+    let start = 0;
+
+    for (let i = 0; i < gas.length; i++) {
+        total += gas[i] - cost[i];
+        tank += gas[i] - cost[i];
+
+        if (tank < 0) {
+            start = i + 1;
+            tank = 0;
         }
     }
+
+    return total >= 0 ? start : -1;
 };
+
+
+gas = [1,2,3,4,5];
+cost = [3,4,5,1,2];
+
+console.log(canCompleteCircuit(gas, cost));
