@@ -29,7 +29,7 @@
     notes:"Show up 15minutes earlier"
   }
 
-  let tasks = [task1,task2,task3,task4];
+  let tasks = [task1,task2,task3,task4,task5];
 
   //task column initialize
   let column = document.getElementById("to-do");
@@ -45,57 +45,113 @@
   //add listeners for source zone
   let dragged;
 
-  const source = document.querySelector(".item");
+  document.querySelectorAll(".item").forEach(setEveryElement);
+  document.querySelectorAll(".dropzone").forEach(setEveryZone);
 
-  source.addEventListener("drag",(event)=>{
-    console.log("dragging");
-  });
+  function setEveryElement(item) {
+    item.addEventListener("drag",onDrag);
+  }
 
-  //when start dragging append "dragging" class and log it
-  source.addEventListener("dragstart",(event)=>{
-    dragged=event.target;
-    console.log(dragged);
+  function onDrag(event){
+    dragged = event.target;
     event.target.classList.add("dragging");
-  });
+    dragged.addEventListener("dragstart", letDrop);
+    //console.log(dragged);
+  }
 
-  //when leave element, exclude class "dragging"
-  source.addEventListener("dragend",(event)=>{
-    //reset the transparency
-    event.target.classList.remove("dragging");
-  });
+  function letDrop(event){
+    event.target.addEventListener("dragend", ()=>{
+      event.target.classList.remove("dragging");
+      //console.log(event.target);
+    });
+  }
 
-  //add listeners for destination zone
-  let target = document.querySelector(".dropzone");
+  //add listeners for every zone
 
-  //make container/target open for a drop
-  target.addEventListener("dragover",(event)=>{
-    //prevent default to allow item drop
-    event.preventDefault();
-  });
+  function setEveryZone(zone){
+    zone.addEventListener("dragover",(event)=>{
+      event.preventDefault();
+    })
+    onDragging(zone);
+  }
 
+  function onDragging(zone){
+    zone.addEventListener("dragenter",(event)=>{
+      if(event.target.classList.contains("dropzone")){
+        event.target.classList.add("dragover");
+      }
+    })
+    onLeaving(zone);
+  }
 
-  target.addEventListener("dragenter",(event)=>{
-    if(event.target.classList.contains("dropzone")){
-      event.target.classList.add("dragover");
-      console.log(target);
-    }
-  });
+  function onLeaving(zone){
+    zone.addEventListener("dragleave",(event)=>{
+      if(event.target.classList.contains("dropzone")){
+        event.target.classList.remove("dragover");
+      }
+    })
+    addItem(zone);
+  }
 
-  target.addEventListener("dragleave",(event)=>{
-    if(event.target.classList.contains("dropzone")){
-      event.target.classList.remove("dragover");
-    }
-  })
-
-
-  //append child to proper container
-  target.addEventListener("drop",(event)=>{
-    event.preventDefault();
-    if (event.target.classList.contains("dropzone")){
-      event.target.classList.remove("dragover");
+  function addItem(zone){
+    zone.addEventListener("drop", (event)=>{
+      event.preventDefault();
+      //console.log(event.target);
       event.target.appendChild(dragged);
-    }
-  });
+    })
+  }
+
+  //drag and drop one thing !!
+
+  // source.addEventListener("drag",(event)=>{
+  //   console.log("dragging");
+  // });
+  //
+  // //when start dragging append "dragging" class and log it
+  // source.addEventListener("dragstart",(event)=>{
+  //   dragged=event.target;
+  //   console.log(dragged);
+  //   event.target.classList.add("dragging");
+  // });
+  //
+  // //when leave element, exclude class "dragging"
+  // source.addEventListener("dragend",(event)=>{
+  //   //reset the transparency
+  //   event.target.classList.remove("dragging");
+  // });
+  //
+  //add listeners for destination zone
+  // let target = document.querySelector(".dropzone");
+  //
+  // //make container/target open for a drop
+  // target.addEventListener("dragover",(event)=>{
+  //   //prevent default to allow item drop
+  //   event.preventDefault();
+  // });
+
+
+  // target.addEventListener("dragenter",(event)=>{
+  //   if(event.target.classList.contains("dropzone")){
+  //     event.target.classList.add("dragover");
+  //     console.log(target);
+  //   }
+  // });
+  //
+  // target.addEventListener("dragleave",(event)=>{
+  //   if(event.target.classList.contains("dropzone")){
+  //     event.target.classList.remove("dragover");
+  //   }
+  // })
+  //
+  //
+  // //append child to proper container
+  // target.addEventListener("drop",(event)=>{
+  //   event.preventDefault();
+  //   if (event.target.classList.contains("dropzone")){
+  //     event.target.classList.remove("dragover");
+  //     event.target.appendChild(dragged);
+  //   }
+  // });
 
 
 
