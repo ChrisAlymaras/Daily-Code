@@ -1,0 +1,15 @@
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\bin\Debug\net10.0\TestProject.exe
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\bin\Debug\net10.0\TestProject.deps.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\bin\Debug\net10.0\TestProject.runtimeconfig.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\bin\Debug\net10.0\TestProject.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\bin\Debug\net10.0\TestProject.pdb
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.AssemblyInfo.cs
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.sourcelink.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\refint\TestProject.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.pdb
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.genruntimeconfig.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\TestProject\obj\Debug\net10.0\ref\TestProject.dll

@@ -1,0 +1,15 @@
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.AssemblyInfoInputs.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.AssemblyInfo.cs
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.csproj.CoreCompileInputs.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.sourcelink.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\bin\Debug\net10.0\SimpleIF.exe
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\bin\Debug\net10.0\SimpleIF.deps.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\bin\Debug\net10.0\SimpleIF.runtimeconfig.json
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\bin\Debug\net10.0\SimpleIF.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\bin\Debug\net10.0\SimpleIF.pdb
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\refint\SimpleIF.dll
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.pdb
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\SimpleIF.genruntimeconfig.cache
+C:\Users\xristos\Desktop\Daily-Code\Csharp\CsharpProjects\SimpleIF\obj\Debug\net10.0\ref\SimpleIF.dll
