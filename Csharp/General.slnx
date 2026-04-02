@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Array/Array.csproj" />
+  <Project Path="BankWithdrawal/BankWithdrawal.csproj" />
   <Project Path="Dictionary/Dictionary.csproj" />
   <Project Path="OrganizedPhoneDioctionary/OrganizedPhoneDioctionary.csproj" Id="296e9864-5f24-4695-b83b-8da191e00e9a" />
   <Project Path="StoreToList/StoreToList.csproj" />
