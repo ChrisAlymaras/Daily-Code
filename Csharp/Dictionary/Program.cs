@@ -6,6 +6,7 @@ internal class Programm
     {
         Dictionary<string,string> contacts = new Dictionary<string,string>();
 
+
         bool exit = false;
         while (!exit)
         {
@@ -100,7 +101,6 @@ internal class Programm
                     break;
 
             }
-
         }
     }
 }
