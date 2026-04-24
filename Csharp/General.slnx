@@ -6,4 +6,5 @@
   <Project Path="OrganizedPhoneDioctionary/OrganizedPhoneDioctionary.csproj" Id="296e9864-5f24-4695-b83b-8da191e00e9a" />
   <Project Path="Shapes/Shapes.csproj" />
   <Project Path="StoreToList/StoreToList.csproj" />
+  <Project Path="ZooVisit/ZooVisit.csproj" />
 </Solution>
